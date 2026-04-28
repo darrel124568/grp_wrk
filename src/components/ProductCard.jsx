@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function ProductCard({product}) {
     const {name, catgeory, price} = product
   return (
@@ -9,9 +11,7 @@ export default function ProductCard({product}) {
           {catgeory}
         </p>
         <p>Ksh.{price}</p>
-        <a href="#" className="btn btn-primary">
-          Add To Cart
-        </a>
+        <Button />
       </div>
     </div>
   );

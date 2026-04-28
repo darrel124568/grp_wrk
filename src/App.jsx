@@ -1,6 +1,8 @@
 
 import './App.css'
 import ProductList from './components/ProductList'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   const products = [
@@ -42,9 +44,9 @@ function App() {
 ]
   return (
     <div className='container'>
-
+      <Header />
       <ProductList products={products}/>
-      
+      <Footer />
     </div>
   )
 }

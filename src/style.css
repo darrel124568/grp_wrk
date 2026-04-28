@@ -1,0 +1,16 @@
+ a {
+    color: blue;
+    margin: 3%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+footer {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+}
